@@ -1,0 +1,16 @@
+{
+    "name": "aikido-direct-dependency",
+    "version": "1.0.0",
+    "description": "Project with axios@1.8.4-aikido.8 as a direct dependency.",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "packageManager": "yarn@2.4.3",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "https://npm.aikido.io/5d31abe78fd05d20fa3c/axios/-/axios-1.8.4-aikido.8.tgz"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "aikido-used-and-available",
+    "version": "1.0.0",
+    "description": "Project already uses an Aikido library version while a fix remains available.",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "packageManager": "yarn@1.22.22",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "https://npm.aikido.io/5d31abe78fd05d20fa3c/axios/-/axios-1.8.4-aikido.8.tgz",
+        "axios-retry": "4.5.0"
+    },
+    "resolutions": {
+        "axios": "https://npm.aikido.io/5d31abe78fd05d20fa3c/axios/-/axios-1.8.4-aikido.8.tgz"
+    }
+}
