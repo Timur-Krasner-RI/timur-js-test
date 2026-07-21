@@ -1,4 +1,4 @@
-FROM timurkri/arm64v8-node
+FROM timurkri/getting-started-todo-app
 
 WORKDIR /app
 
