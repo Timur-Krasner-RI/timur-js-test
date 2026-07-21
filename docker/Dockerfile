@@ -1,4 +1,4 @@
-FROM node:20
+FROM timurkri/arm64v8-node
 
 WORKDIR /app
 
