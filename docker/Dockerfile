@@ -1,4 +1,4 @@
-FROM timurkri/getting-started-todo-app
+FROM node:20
 
 WORKDIR /app
 
