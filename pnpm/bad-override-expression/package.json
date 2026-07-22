@@ -1,20 +1,22 @@
 {
-  "name": "bad-override-expression",
-  "version": "1.0.0",
-  "description": "Reproduces AutoFix failing to delete an existing Aikido Library override for js-yaml (bad expression syntax).",
-  "license": "ISC",
-  "type": "commonjs",
-  "main": "index.js",
-  "packageManager": "pnpm@11.15.1",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "js-yaml": "4.1.0"
-  },
   "pnpm": {
     "overrides": {
-      "js-yaml@^4.1.0": "https://npm.aikido.io/5d31abe78fd05d20fa3c/js-yaml/-/js-yaml-4.1.0-aikido.1.tgz"
+      "hono@>=4.0.0 <4.9.7": "^4.10.6",
+      "js-yaml@>=3.0.0 <3.14.2": "^3.14.2"
     }
-  }
+  },
+  "scripts": {
+    "dev": "sst dev"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.159",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.940.0",
+    "@aws-sdk/client-secrets-manager": "^3.940.0",
+    "aws-lambda": "^1.0.7",
+    "sst": "3.17.23"
+  },
+  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
 }
