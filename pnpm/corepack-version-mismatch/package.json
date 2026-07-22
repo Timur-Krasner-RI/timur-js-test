@@ -1,0 +1,25 @@
+{
+  "name": "corepack-version-mismatch",
+  "version": "1.0.0",
+  "description": "Recreates Aikido AutoFix lockfile update failure: packageManager pnpm@10.23.0 vs Corepack/pnpm 11.x, with pnpm.overrides ignored by pnpm 11.",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "packageManager": "pnpm@10.23.0",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.15.1",
+      "onFail": "error"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "4.5.0"
+  },
+  "pnpm": {
+    "overrides": {}
+  }
+}
