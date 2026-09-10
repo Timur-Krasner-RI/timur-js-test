@@ -9,9 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ajv": "6.5.2",
+    "ajv": "http://host.docker.internal:9009/139ce9d6db2dd5807/ajv@6.5.2-aikido.2",
     "axios": "http://host.docker.internal:9009/139ce9d6db2dd5807/axios@1.8.4-aikido.11",
     "lodash": "^4.17.10",
-    "xregexp": "4.0.0"
+    "xregexp": "http://host.docker.internal:9009/139ce9d6db2dd5807/xregexp@4.0.0-aikido.1"
   }
 }
