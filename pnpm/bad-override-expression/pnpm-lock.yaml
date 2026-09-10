@@ -6,7 +6,9 @@ settings:
 
 overrides:
   hono@>=4.0.0 <4.9.7: ^4.10.6
-  js-yaml@>=3.0.0 <3.14.2: 3.14.2
+  js-yaml@3: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3
+  js-yaml@>=3.0.0 <3.14.2: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3
+  uuid@8: http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3
 
 importers:
 
@@ -405,8 +407,9 @@ packages:
   jose@5.2.3:
     resolution: {integrity: sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==}
 
-  js-yaml@3.14.2:
-    resolution: {integrity: sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==}
+  js-yaml@http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3:
+    resolution: {tarball: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3}
+    version: 3.14.2-aikido.3
     hasBin: true
 
   lru-cache@6.0.0:
@@ -631,9 +634,9 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  uuid@8.0.0:
-    resolution: {integrity: sha512-jOXGuXZAWdsTH7eZLtyXMqUb9EcWMGZNbL9YcGBJl4MH4nrxHmZJhEHvyLFrkxo+28uLb/NYRcStH48fnD0Vzw==}
-    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+  uuid@http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3:
+    resolution: {tarball: http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3}
+    version: 8.0.0-aikido.3
     hasBin: true
 
   vary@1.1.2:
@@ -896,7 +899,7 @@ snapshots:
     dependencies:
       aws-sdk: 2.1693.0
       commander: 3.0.2
-      js-yaml: 3.14.2
+      js-yaml: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3
       watchpack: 2.5.2
 
   aws-sdk@2.1692.0:
@@ -909,7 +912,7 @@ snapshots:
       sax: 1.2.1
       url: 0.10.3
       util: 0.12.5
-      uuid: 8.0.0
+      uuid: http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3
       xml2js: 0.6.2
 
   aws-sdk@2.1693.0:
@@ -922,7 +925,7 @@ snapshots:
       sax: 1.2.1
       url: 0.10.3
       util: 0.12.5
-      uuid: 8.0.0
+      uuid: http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3
       xml2js: 0.6.2
 
   aws4fetch@1.0.18: {}
@@ -1183,7 +1186,7 @@ snapshots:
 
   jose@5.2.3: {}
 
-  js-yaml@3.14.2:
+  js-yaml@http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
@@ -1430,7 +1433,7 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.22
 
-  uuid@8.0.0: {}
+  uuid@http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3: {}
 
   vary@1.1.2: {}
 
