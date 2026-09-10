@@ -9,6 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ajv": "6.5.2"
+    "ajv": "http://host.docker.internal:9009/139ce9d6db2dd5807/ajv@6.5.2-aikido.2"
   }
 }
