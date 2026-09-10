@@ -2,7 +2,6 @@
 # yarn lockfile v1
 
 
-lodash@4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+"lodash@http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2":
+  version "4.17.21-aikido.2"
+  resolved "http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2#6dd8c104d0226be786fb974e18b58c75360b560c"
