@@ -1,0 +1,15 @@
+alpine:3.20
+alpine:3.21
+alpine:3.22.2
+alpine:3.19
+busybox:1.37.0
+debian:12-slim
+ubuntu:24.04
+nginx:1.27-alpine
+node:20-alpine
+node:22-alpine
+python:3.12-slim
+python:3.13-alpine
+golang:1.25-alpine
+eclipse-temurin:21-jre-alpine
+curlimages/curl:8.16.0
