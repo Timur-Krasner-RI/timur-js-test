@@ -3,19 +3,19 @@
 
 __metadata:
   version: 4
-  cacheKey: 5
+  cacheKey: 7
 
 "aikido-available-version@workspace:.":
   version: 0.0.0-use.local
   resolution: "aikido-available-version@workspace:."
   dependencies:
-    lodash: "npm:4.17.21"
+    lodash: "http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2.tgz"
   languageName: unknown
   linkType: soft
 
-"lodash@npm:4.17.21":
-  version: 4.17.21
-  resolution: "lodash@npm:4.17.21"
-  checksum: d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
+"lodash@http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2.tgz":
+  version: 4.17.21-aikido.2
+  resolution: "lodash@http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2.tgz"
+  checksum: c43224e9ea8f780ba7e4df852d4c80b0e0e38ed7f47615024df7691ed5627fc860e2434ff5be00f63f08823dec7a6d012180a27205535c3028498cea9efb7c95
   languageName: node
   linkType: hard
