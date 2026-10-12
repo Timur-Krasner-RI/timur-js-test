@@ -24,6 +24,9 @@ importers:
       sst:
         specifier: 3.17.23
         version: 3.17.23
+      xregexp:
+        specifier: 4.0.0
+        version: 4.0.0
     devDependencies:
       '@types/aws-lambda':
         specifier: 8.10.159
@@ -658,6 +661,9 @@ packages:
   xmlbuilder@11.0.1:
     resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
     engines: {node: '>=4.0'}
+
+  xregexp@4.0.0:
+    resolution: {integrity: sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg==}
 
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
@@ -1456,6 +1462,8 @@ snapshots:
       xmlbuilder: 11.0.1
 
   xmlbuilder@11.0.1: {}
+
+  xregexp@4.0.0: {}
 
   yallist@4.0.0: {}
 
