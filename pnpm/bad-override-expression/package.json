@@ -2,7 +2,9 @@
   "pnpm": {
     "overrides": {
       "hono@>=4.0.0 <4.9.7": "^4.10.6",
-      "js-yaml@>=3.0.0 <3.14.2": "3.14.2"
+      "js-yaml@3": "http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3",
+      "uuid@8": "http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3",
+      "xregexp@4": "http://host.docker.internal:9009/139ce9d6db2dd5807/xregexp@4.0.0-aikido.1"
     }
   },
   "scripts": {
@@ -16,7 +18,8 @@
     "@aws-sdk/client-iam": "^3.940.0",
     "@aws-sdk/client-secrets-manager": "^3.940.0",
     "aws-lambda": "^1.0.7",
-    "sst": "3.17.23"
+    "sst": "3.17.23",
+    "xregexp": "http://host.docker.internal:9009/139ce9d6db2dd5807/xregexp@4.0.0-aikido.1"
   },
   "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
 }
