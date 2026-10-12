@@ -9,6 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ajv": "6.5.2"
+    "ajv": "https://npm-staging.aikido.io/1f8edf5e23989a796bf/ajv@6.5.2-aikido.2"
   }
 }
