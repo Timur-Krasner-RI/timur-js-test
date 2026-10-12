@@ -6,7 +6,7 @@ settings:
 
 overrides:
   hono@>=4.0.0 <4.9.7: ^4.10.6
-  js-yaml@>=3.0.0 <3.14.2: 3.14.2
+  js-yaml@3: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3
 
 importers:
 
@@ -24,9 +24,6 @@ importers:
       sst:
         specifier: 3.17.23
         version: 3.17.23
-      xregexp:
-        specifier: 4.0.0
-        version: 4.0.0
     devDependencies:
       '@types/aws-lambda':
         specifier: 8.10.159
@@ -408,8 +405,9 @@ packages:
   jose@5.2.3:
     resolution: {integrity: sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==}
 
-  js-yaml@3.14.2:
-    resolution: {integrity: sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==}
+  js-yaml@http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3:
+    resolution: {tarball: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3}
+    version: 3.14.2-aikido.3
     hasBin: true
 
   lru-cache@6.0.0:
@@ -662,9 +660,6 @@ packages:
     resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
     engines: {node: '>=4.0'}
 
-  xregexp@4.0.0:
-    resolution: {integrity: sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg==}
-
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
@@ -902,7 +897,7 @@ snapshots:
     dependencies:
       aws-sdk: 2.1693.0
       commander: 3.0.2
-      js-yaml: 3.14.2
+      js-yaml: http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3
       watchpack: 2.5.2
 
   aws-sdk@2.1692.0:
@@ -1189,7 +1184,7 @@ snapshots:
 
   jose@5.2.3: {}
 
-  js-yaml@3.14.2:
+  js-yaml@http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
@@ -1462,8 +1457,6 @@ snapshots:
       xmlbuilder: 11.0.1
 
   xmlbuilder@11.0.1: {}
-
-  xregexp@4.0.0: {}
 
   yallist@4.0.0: {}
 
