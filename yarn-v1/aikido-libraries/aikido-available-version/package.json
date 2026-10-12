@@ -11,6 +11,6 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "lodash": "4.17.21"
+        "lodash": "https://npm-staging.aikido.io/1f8edf5e23989a796bf/lodash@4.17.21-aikido.3"
     }
 }
