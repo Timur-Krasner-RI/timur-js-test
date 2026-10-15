@@ -11,6 +11,6 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "axios": "https://npm.aikido.io/5d31abe78fd05d20fa3c/axios/-/axios-1.8.4-aikido.8.tgz"
+        "axios": "http://host.docker.internal:9009/139ce9d6db2dd5807/axios/-/axios-1.8.4-aikido.11.tgz"
     }
 }
