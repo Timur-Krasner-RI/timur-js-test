@@ -2,7 +2,9 @@
   "pnpm": {
     "overrides": {
       "hono@>=4.0.0 <4.9.7": "^4.10.6",
-      "js-yaml@>=3.0.0 <3.14.2": "3.14.2"
+      "js-yaml@3": "http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3",
+      "js-yaml@>=3.0.0 <3.14.2": "http://host.docker.internal:9009/139ce9d6db2dd5807/js-yaml@3.14.2-aikido.3",
+      "uuid@8": "http://host.docker.internal:9009/139ce9d6db2dd5807/uuid@8.0.0-aikido.3"
     }
   },
   "scripts": {
