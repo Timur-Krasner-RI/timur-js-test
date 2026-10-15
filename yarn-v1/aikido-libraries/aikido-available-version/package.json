@@ -11,6 +11,6 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "lodash": "4.17.21"
+        "lodash": "http://host.docker.internal:9009/139ce9d6db2dd5807/lodash@4.17.21-aikido.2"
     }
 }
